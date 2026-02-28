@@ -80,8 +80,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/EtAorangE/cf-worker-glm5.git
-cd cf-worker-glm5
+git clone https://github.com/EtAorangE/nvidia-nim-proxy.git
+cd nvidia-nim-proxy
 bun install
 ```
 
