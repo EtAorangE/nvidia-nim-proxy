@@ -1,0 +1,32 @@
+{
+  "name": "cf-worker-glm5",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for NVIDIA GLM-5 deployment",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "build": "wrangler deploy --dry-run",
+    "test": "vitest"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "glm-5",
+    "nvidia",
+    "ai",
+    "llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "wrangler": "^3.24.0"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

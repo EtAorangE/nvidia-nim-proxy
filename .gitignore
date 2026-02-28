@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 构建输出
+dist/
+.wrangler/
+
+# 环境变量
+.dev.vars
+.env
+.env.local
+
+# 日志
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
